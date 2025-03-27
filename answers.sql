@@ -1,25 +1,17 @@
--- Question 1
-SELECT checkNumber, paymentDate, amount
-FROM payments;
+-- QUESTION 1
+create table student(
+id INT AUTO_INCREMENT PRIMARY KEY,
+fullName VARCHAR(100),
+age INT
+);
 
--- Question 2
-SELECT orderDate, requiredDate, status
-FROM orders
-WHERE status= "In Process"
-ORDER BY orderDate DESC;
+-- QUESTION 2
+INSERT INTO student (id, fullName, age) VALUES
+(1, "Millicent Omango", 45),
+(2, "Beatrice Iliki", 57),
+(3, "Shadrack Mulinge", 37);
 
--- Question 3
-SELECT firstName, lastName, email
-FROM employees
-WHERE jobTitle= "Sales Rep"
-ORDER BY employeeNumber DESC;
-
--- Question 4
-SELECT * FROM offices;
-
--- Question 5
-SELECT productName, quantityInStock
-FROM products
-ORDER BY buyPrice ASC
-LIMIT 5;
-
+-- QUESTION 3
+UPDATE student
+SET age= 20
+WHERE id=2;
