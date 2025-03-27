@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>My Nice Webpage!</title>
+        <style>
+            table {
+                width: 100%;
+                border-collapse: collapse;
+                border-spacing: 0;
+            }
+            th, td {
+                border: 3px solid black;
+                padding: 15px;
+                text-align: left;
+            }
+            th {
+                background-color: #f2f2f2;
+            }
+        </style>
+    </head>
+    <body>
+        <h2>Welcome to Bora Bag Makers!</h2>
+        <p> We are a bag making company based in Ngong', Kenya.
+            We specialize in the production of high-quality handbags, backpacks, and clutch bags. 
+            Our products are made from the finest materials and are designed to suit your style and preference. 
+            We offer both wholesale and retail distribution options. 
+            We have listed some of our top distributors below.
+            <br><br>
+            If you are interested in becoming a distributor, please fill out the form below. We will get back to you as soon within 48 hrs.
+            <br><br>
+            Thank you for choosing Bora Bag Makers!
+        </p>
+
+        <!-- External Image from Pexels-->
+        <img src = "https://images.pexels.com/photos/575435/pexels-photo-575435.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt = "Bridal Shop" width = "600">
+        <p>Here are some of our top distributors!:</p>
+        <ol type = "I">
+
+            <!-- Ordered list with Roman Numerals-->
+            <li>Samantha Wavinya</li>
+            <li>Ayako Atanda</li>
+            <li>Muthoni Nyako</li>
+            <li>Hades Oloo</li>
+            <li>Peterson Muhiga</li>
+        </ol>
+        
+        <!--Table of 5 Contacts-->
+        <h4>Customer contact information</h4>
+        <table>
+            <tr>
+                <th>Name</th>
+                <th>Address</th>
+                <th>Mobile</th>
+                <th>Email</th>
+            </tr>
+            <tr>
+                <td>Samantha Wavinya</td>
+                <td>Ngong, Kajiado</td>
+                <td>+1234567890</td>
+                <td>swavinya@gmail.com</td>
+            </tr>
+            <tr>
+                <td>Ayako Atanda</td>
+                <td>Westlands, Nairobi</td>
+                <td>+1987654321</td>
+                <td>aatanda@yahoo.com</td>
+            </tr>
+            <tr>
+                <td>Muthoni Nyako</td>
+                <td>Thika, Kiambu</td>
+                <td>+1289456800</td>
+                <td>nyakom@outlook.com</td>
+            </tr>
+            <tr>
+                <td>Hades Oloo</td>
+                <td>Nyalenda, Kisumu</td>
+                <td>+1122334455</td>
+                <td>hadesoloo@gmail.com</td>
+            </tr>
+            <tr>
+                <td>Peterson Muhiga</td>
+                <td>Tigania, Meru</td>
+                <td>+1122334455</td>
+                <td>pmuhiga@yahoo.com</td>
+            </tr>
+        </table>
+
+        <!--Registration form-->
+        <h2>Register with us!</h2>
+        <form action="#" method="POST">
+            <label for="fname">First Name:</label>
+            <input type="text" id="fname" name="fname" placeholder="Enter your first name" required>
+            <br><br>
+
+            <label for="lname">Last Name:</label>
+            <input type="text" id="lname" name="lname" placeholder="Enter your last name" required>
+            <br><br>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" placeholder="Enter your email address" required>
+            <br><br>
+
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password" placeholder="Enter a password" required>
+            <br><br>
+
+            <label for="dob">Date of Birth:</label>
+            <input type="date" id="dob" name="dob" required>
+            <br><br>
+
+            <label for="gender">Gender:</label>
+            <select id="gender" name="gender" required>
+                <option value="">Select your gender</option>
+                <option value="male">Male</option>
+                <option value="female">Female</option>
+                <option value="other">Other</option>
+            </select>
+            <br><br>
+
+            <label>Type of Distribution:</label>
+            <input type="radio" id="wholesale" name="distribution" value="wholesale" required>
+            <label for="wholesale">Wholesale</label>
+            <input type="radio" id="retail" name="distribution" value="retail">
+            <label for="retail">Retail</label>
+            <br><br>
+
+            <label>Distribution Interest:</label>
+            <input type="checkbox" id="handbag" name="interests" value="handbag">
+            <label for="handbag">Handbags</label>
+            <input type="checkbox" id="backpack" name="interests" value="backpack">
+            <label for="backpack">Backpacks</label>
+            <input type="checkbox" id="clutch" name="interests" value="clutch">
+            <label for="clutch">Clutch bags</label>
+            <br><br>
+
+    </body>
+    <footer>
+        <p>&copy; 2025. All Rights Reserved.</p>
+    </footer>
+</html>
