@@ -1,17 +1,17 @@
 -- QUESTION 1
-create table student(
-id INT AUTO_INCREMENT PRIMARY KEY,
-fullName VARCHAR(100),
-age INT
+create table student (
+id int auto_increment primary key,
+fullName varchar(100),
+age int 
 );
 
 -- QUESTION 2
-INSERT INTO student (id, fullName, age) VALUES
-(1, "Millicent Omango", 45),
-(2, "Beatrice Iliki", 57),
-(3, "Shadrack Mulinge", 37);
+insert into student (id, fullName, age) values
+(1, "Millicent Angayi", 25),
+(2,"Sanel Patel", 23),
+(3, "Raphael Uriah", 22);
 
 -- QUESTION 3
-UPDATE student
-SET age= 20
-WHERE id=2;
+update student
+set age = 20
+where id = 2;
